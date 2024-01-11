@@ -1,0 +1,22 @@
+README
+searchCars
+
+Created by Paul Murnane on 15/12/2023.
+
+This app was constructed to be able to read in a Car Registration plate number and return details about the car.
+The app accesses Carcheck.ie and send the reg details in a GET method, it then parses through the returned HTML
+and returns the Car details back to the user to be put into a box that can be shared to whatever app the user
+wants to share it to in the format:
+
+Input: 222d4:
+
+Output:
+////////////////
+Reg Number:  222D4
+
+BMW M4 CSL M4CL 2DR Auto, 2022
+Body: 2 Door Coupe
+CC: 2993
+Fuel: Petrol
+Colour: Black
+////////////////

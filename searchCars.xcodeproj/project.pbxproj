@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA89E34B2B2F6BA900251BFA /* README in Resources */ = {isa = PBXBuildFile; fileRef = DA89E34A2B2F6BA900251BFA /* README */; };
+		DA89E34E2B30A18A00251BFA /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = DA89E34D2B30A18A00251BFA /* SQLite */; };
+		DA89E3502B30A19900251BFA /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA89E34F2B30A19900251BFA /* DBHelper.swift */; };
+		DA89E3522B30A1C900251BFA /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA89E3512B30A1C900251BFA /* CarModel.swift */; };
+		DA89E3542B30A22500251BFA /* CarViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA89E3532B30A22500251BFA /* CarViews.swift */; };
+		DA89E3562B31BEAF00251BFA /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA89E3552B31BEAF00251BFA /* SearchBar.swift */; };
+		DADCB10F2B2CD3D8007BC41E /* searchCarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADCB10E2B2CD3D8007BC41E /* searchCarsApp.swift */; };
+		DADCB1112B2CD3D8007BC41E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADCB1102B2CD3D8007BC41E /* ContentView.swift */; };
+		DADCB1132B2CD3D9007BC41E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADCB1122B2CD3D9007BC41E /* Assets.xcassets */; };
+		DADCB1162B2CD3D9007BC41E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADCB1152B2CD3D9007BC41E /* Preview Assets.xcassets */; };
+		DADCB1182B2CD3D9007BC41E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADCB1172B2CD3D9007BC41E /* Persistence.swift */; };
+		DADCB11B2B2CD3D9007BC41E /* searchCars.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DADCB1192B2CD3D9007BC41E /* searchCars.xcdatamodeld */; };
+		DADCB1252B2CD3D9007BC41E /* searchCarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADCB1242B2CD3D9007BC41E /* searchCarsTests.swift */; };
+		DADCB12F2B2CD3D9007BC41E /* searchCarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADCB12E2B2CD3D9007BC41E /* searchCarsUITests.swift */; };
+		DADCB1312B2CD3D9007BC41E /* searchCarsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADCB1302B2CD3D9007BC41E /* searchCarsUITestsLaunchTests.swift */; };
+		DADCB13E2B2CD4CD007BC41E /* CarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADCB13D2B2CD4CD007BC41E /* CarService.swift */; };
+		DADCB1412B2CD5A0007BC41E /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = DADCB1402B2CD5A0007BC41E /* SwiftSoup */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DADCB1212B2CD3D9007BC41E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADCB1032B2CD3D8007BC41E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADCB10A2B2CD3D8007BC41E;
+			remoteInfo = searchCars;
+		};
+		DADCB12B2B2CD3D9007BC41E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADCB1032B2CD3D8007BC41E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADCB10A2B2CD3D8007BC41E;
+			remoteInfo = searchCars;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA89E34A2B2F6BA900251BFA /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		DA89E34F2B30A19900251BFA /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		DA89E3512B30A1C900251BFA /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
+		DA89E3532B30A22500251BFA /* CarViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViews.swift; sourceTree = "<group>"; };
+		DA89E3552B31BEAF00251BFA /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		DADCB10B2B2CD3D8007BC41E /* searchCars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = searchCars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADCB10E2B2CD3D8007BC41E /* searchCarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchCarsApp.swift; sourceTree = "<group>"; };
+		DADCB1102B2CD3D8007BC41E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DADCB1122B2CD3D9007BC41E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DADCB1152B2CD3D9007BC41E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DADCB1172B2CD3D9007BC41E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		DADCB11A2B2CD3D9007BC41E /* searchCars.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = searchCars.xcdatamodel; sourceTree = "<group>"; };
+		DADCB1202B2CD3D9007BC41E /* searchCarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = searchCarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADCB1242B2CD3D9007BC41E /* searchCarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchCarsTests.swift; sourceTree = "<group>"; };
+		DADCB12A2B2CD3D9007BC41E /* searchCarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = searchCarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADCB12E2B2CD3D9007BC41E /* searchCarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchCarsUITests.swift; sourceTree = "<group>"; };
+		DADCB1302B2CD3D9007BC41E /* searchCarsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchCarsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DADCB13D2B2CD4CD007BC41E /* CarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DADCB1082B2CD3D8007BC41E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA89E34E2B30A18A00251BFA /* SQLite in Frameworks */,
+				DADCB1412B2CD5A0007BC41E /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADCB11D2B2CD3D9007BC41E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADCB1272B2CD3D9007BC41E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DADCB1022B2CD3D8007BC41E = {
+			isa = PBXGroup;
+			children = (
+				DADCB10D2B2CD3D8007BC41E /* searchCars */,
+				DADCB1232B2CD3D9007BC41E /* searchCarsTests */,
+				DADCB12D2B2CD3D9007BC41E /* searchCarsUITests */,
+				DADCB10C2B2CD3D8007BC41E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DADCB10C2B2CD3D8007BC41E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DADCB10B2B2CD3D8007BC41E /* searchCars.app */,
+				DADCB1202B2CD3D9007BC41E /* searchCarsTests.xctest */,
+				DADCB12A2B2CD3D9007BC41E /* searchCarsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DADCB10D2B2CD3D8007BC41E /* searchCars */ = {
+			isa = PBXGroup;
+			children = (
+				DADCB10E2B2CD3D8007BC41E /* searchCarsApp.swift */,
+				DADCB13D2B2CD4CD007BC41E /* CarService.swift */,
+				DA89E34F2B30A19900251BFA /* DBHelper.swift */,
+				DA89E3512B30A1C900251BFA /* CarModel.swift */,
+				DA89E34A2B2F6BA900251BFA /* README */,
+				DADCB1102B2CD3D8007BC41E /* ContentView.swift */,
+				DA89E3532B30A22500251BFA /* CarViews.swift */,
+				DA89E3552B31BEAF00251BFA /* SearchBar.swift */,
+				DADCB1122B2CD3D9007BC41E /* Assets.xcassets */,
+				DADCB1172B2CD3D9007BC41E /* Persistence.swift */,
+				DADCB1192B2CD3D9007BC41E /* searchCars.xcdatamodeld */,
+				DADCB1142B2CD3D9007BC41E /* Preview Content */,
+			);
+			path = searchCars;
+			sourceTree = "<group>";
+		};
+		DADCB1142B2CD3D9007BC41E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DADCB1152B2CD3D9007BC41E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DADCB1232B2CD3D9007BC41E /* searchCarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DADCB1242B2CD3D9007BC41E /* searchCarsTests.swift */,
+			);
+			path = searchCarsTests;
+			sourceTree = "<group>";
+		};
+		DADCB12D2B2CD3D9007BC41E /* searchCarsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DADCB12E2B2CD3D9007BC41E /* searchCarsUITests.swift */,
+				DADCB1302B2CD3D9007BC41E /* searchCarsUITestsLaunchTests.swift */,
+			);
+			path = searchCarsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DADCB10A2B2CD3D8007BC41E /* searchCars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADCB1342B2CD3D9007BC41E /* Build configuration list for PBXNativeTarget "searchCars" */;
+			buildPhases = (
+				DADCB1072B2CD3D8007BC41E /* Sources */,
+				DADCB1082B2CD3D8007BC41E /* Frameworks */,
+				DADCB1092B2CD3D8007BC41E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = searchCars;
+			packageProductDependencies = (
+				DADCB1402B2CD5A0007BC41E /* SwiftSoup */,
+				DA89E34D2B30A18A00251BFA /* SQLite */,
+			);
+			productName = searchCars;
+			productReference = DADCB10B2B2CD3D8007BC41E /* searchCars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DADCB11F2B2CD3D9007BC41E /* searchCarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADCB1372B2CD3D9007BC41E /* Build configuration list for PBXNativeTarget "searchCarsTests" */;
+			buildPhases = (
+				DADCB11C2B2CD3D9007BC41E /* Sources */,
+				DADCB11D2B2CD3D9007BC41E /* Frameworks */,
+				DADCB11E2B2CD3D9007BC41E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADCB1222B2CD3D9007BC41E /* PBXTargetDependency */,
+			);
+			name = searchCarsTests;
+			productName = searchCarsTests;
+			productReference = DADCB1202B2CD3D9007BC41E /* searchCarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DADCB1292B2CD3D9007BC41E /* searchCarsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADCB13A2B2CD3D9007BC41E /* Build configuration list for PBXNativeTarget "searchCarsUITests" */;
+			buildPhases = (
+				DADCB1262B2CD3D9007BC41E /* Sources */,
+				DADCB1272B2CD3D9007BC41E /* Frameworks */,
+				DADCB1282B2CD3D9007BC41E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADCB12C2B2CD3D9007BC41E /* PBXTargetDependency */,
+			);
+			name = searchCarsUITests;
+			productName = searchCarsUITests;
+			productReference = DADCB12A2B2CD3D9007BC41E /* searchCarsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DADCB1032B2CD3D8007BC41E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DADCB10A2B2CD3D8007BC41E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					DADCB11F2B2CD3D9007BC41E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DADCB10A2B2CD3D8007BC41E;
+					};
+					DADCB1292B2CD3D9007BC41E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DADCB10A2B2CD3D8007BC41E;
+					};
+				};
+			};
+			buildConfigurationList = DADCB1062B2CD3D8007BC41E /* Build configuration list for PBXProject "searchCars" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DADCB1022B2CD3D8007BC41E;
+			packageReferences = (
+				DADCB13F2B2CD5A0007BC41E /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+				DA89E34C2B30A18A00251BFA /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+			);
+			productRefGroup = DADCB10C2B2CD3D8007BC41E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DADCB10A2B2CD3D8007BC41E /* searchCars */,
+				DADCB11F2B2CD3D9007BC41E /* searchCarsTests */,
+				DADCB1292B2CD3D9007BC41E /* searchCarsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DADCB1092B2CD3D8007BC41E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA89E34B2B2F6BA900251BFA /* README in Resources */,
+				DADCB1162B2CD3D9007BC41E /* Preview Assets.xcassets in Resources */,
+				DADCB1132B2CD3D9007BC41E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADCB11E2B2CD3D9007BC41E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADCB1282B2CD3D9007BC41E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DADCB1072B2CD3D8007BC41E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADCB1182B2CD3D9007BC41E /* Persistence.swift in Sources */,
+				DA89E3522B30A1C900251BFA /* CarModel.swift in Sources */,
+				DA89E3502B30A19900251BFA /* DBHelper.swift in Sources */,
+				DADCB1112B2CD3D8007BC41E /* ContentView.swift in Sources */,
+				DADCB13E2B2CD4CD007BC41E /* CarService.swift in Sources */,
+				DA89E3562B31BEAF00251BFA /* SearchBar.swift in Sources */,
+				DA89E3542B30A22500251BFA /* CarViews.swift in Sources */,
+				DADCB11B2B2CD3D9007BC41E /* searchCars.xcdatamodeld in Sources */,
+				DADCB10F2B2CD3D8007BC41E /* searchCarsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADCB11C2B2CD3D9007BC41E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADCB1252B2CD3D9007BC41E /* searchCarsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADCB1262B2CD3D9007BC41E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADCB12F2B2CD3D9007BC41E /* searchCarsUITests.swift in Sources */,
+				DADCB1312B2CD3D9007BC41E /* searchCarsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DADCB1222B2CD3D9007BC41E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADCB10A2B2CD3D8007BC41E /* searchCars */;
+			targetProxy = DADCB1212B2CD3D9007BC41E /* PBXContainerItemProxy */;
+		};
+		DADCB12C2B2CD3D9007BC41E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADCB10A2B2CD3D8007BC41E /* searchCars */;
+			targetProxy = DADCB12B2B2CD3D9007BC41E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DADCB1322B2CD3D9007BC41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DADCB1332B2CD3D9007BC41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DADCB1352B2CD3D9007BC41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"searchCars/Preview Content\"";
+				DEVELOPMENT_TEAM = 636327WCB4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.searchcars.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DADCB1362B2CD3D9007BC41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"searchCars/Preview Content\"";
+				DEVELOPMENT_TEAM = 636327WCB4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.searchcars.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DADCB1382B2CD3D9007BC41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 636327WCB4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "n-a.searchCarsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/searchCars.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/searchCars";
+			};
+			name = Debug;
+		};
+		DADCB1392B2CD3D9007BC41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 636327WCB4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "n-a.searchCarsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/searchCars.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/searchCars";
+			};
+			name = Release;
+		};
+		DADCB13B2B2CD3D9007BC41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 636327WCB4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "n-a.searchCarsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = searchCars;
+			};
+			name = Debug;
+		};
+		DADCB13C2B2CD3D9007BC41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 636327WCB4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "n-a.searchCarsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = searchCars;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DADCB1062B2CD3D8007BC41E /* Build configuration list for PBXProject "searchCars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADCB1322B2CD3D9007BC41E /* Debug */,
+				DADCB1332B2CD3D9007BC41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADCB1342B2CD3D9007BC41E /* Build configuration list for PBXNativeTarget "searchCars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADCB1352B2CD3D9007BC41E /* Debug */,
+				DADCB1362B2CD3D9007BC41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADCB1372B2CD3D9007BC41E /* Build configuration list for PBXNativeTarget "searchCarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADCB1382B2CD3D9007BC41E /* Debug */,
+				DADCB1392B2CD3D9007BC41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADCB13A2B2CD3D9007BC41E /* Build configuration list for PBXNativeTarget "searchCarsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADCB13B2B2CD3D9007BC41E /* Debug */,
+				DADCB13C2B2CD3D9007BC41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA89E34C2B30A18A00251BFA /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.14.1;
+			};
+		};
+		DADCB13F2B2CD5A0007BC41E /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA89E34D2B30A18A00251BFA /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA89E34C2B30A18A00251BFA /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
+		};
+		DADCB1402B2CD5A0007BC41E /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DADCB13F2B2CD5A0007BC41E /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		DADCB1192B2CD3D9007BC41E /* searchCars.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DADCB11A2B2CD3D9007BC41E /* searchCars.xcdatamodel */,
+			);
+			currentVersion = DADCB11A2B2CD3D9007BC41E /* searchCars.xcdatamodel */;
+			path = searchCars.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DADCB1032B2CD3D8007BC41E /* Project object */;
+}
